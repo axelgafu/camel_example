@@ -79,6 +79,20 @@ In this example, the route starts with a direct endpoint called `"start"`. The b
 
 Note that the MyBean class must have a public method named `"modify"` that takes a single parameter of type String and returns a String. This method is invoked by the bean component and is responsible for modifying the input message as required.
 
+## Output
+``` cmd
+[                          main] AbstractCamelContext           INFO  Apache Camel 4.0.0-M1 (camel-1) is starting
+[                          main] AbstractCamelContext           INFO  Routes startup (started:2)
+[                          main] AbstractCamelContext           INFO      Started FirstRoute (direct://start)
+[                          main] AbstractCamelContext           INFO      Started SecondRoute (direct://transform)
+[                          main] AbstractCamelContext           INFO  Apache Camel 4.0.0-M1 (camel-1) started in 177ms (build:36ms init:126ms start:15ms)
+[                          main] modified                       INFO  Exchange[ExchangePattern: InOnly, BodyType: String, Body: Modified:Transformed: Hello, World!]
+[                          main] AbstractCamelContext           INFO  Apache Camel 4.0.0-M1 (camel-1) is shutting down (timeout:45s)
+[                          main] AbstractCamelContext           INFO  Routes stopped (stopped:2)
+[                          main] AbstractCamelContext           INFO      Stopped SecondRoute (direct://transform)
+[                          main] AbstractCamelContext           INFO      Stopped FirstRoute (direct://start)
+[                          main] AbstractCamelContext           INFO  Apache Camel 4.0.0-M1 (camel-1) shutdown in 10ms (uptime:5s)
+```
 
 ---
 [Home](https://github.com/axelgafu/camel_example)
