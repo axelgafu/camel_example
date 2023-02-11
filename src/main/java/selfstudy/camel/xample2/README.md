@@ -78,3 +78,7 @@ public class MyBean {
 In this example, the route starts with a direct endpoint called `"start"`. The bean component is used to invoke the modify method of the MyBean class, passing in the message body as a parameter. The modified message is then logged to the console using the log component with a log name of `"modified"` and the showBody option set to true to display the message body.
 
 Note that the MyBean class must have a public method named `"modify"` that takes a single parameter of type String and returns a String. This method is invoked by the bean component and is responsible for modifying the input message as required.
+
+
+---
+[Home](https://github.com/axelgafu/camel_example)

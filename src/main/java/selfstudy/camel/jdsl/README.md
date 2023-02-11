@@ -28,3 +28,7 @@ In this example, we create a new CamelContext object and add a new RouteBuilder 
 Finally, we start the CamelContext and sleep for 5 seconds to allow the route to run. After 5 seconds, we stop the CamelContext.
 
 This is just a simple example, and Apache Camel supports many other features and components, such as integration with messaging systems, web services, and databases.
+
+
+---
+[Home](https://github.com/axelgafu/camel_example)
