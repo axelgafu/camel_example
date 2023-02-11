@@ -17,4 +17,4 @@ You can find more information about Apache Camel at the website:[http://camel.ap
 
 **Examples**
 1. Simple Example (Java DSL): See [src/main/java/selfstudy/camel/jdsl/](src/main/java/selfstudy/camel/jdsl/)
-2. Simple Routing: See [src/main/java/selfstudy/camel/xample2/](src/main/java/selfstudy/camel/xsample2/)
+2. Simple Routing: See [src/main/java/selfstudy/camel/xample2/](src/main/java/selfstudy/camel/xample2/)
